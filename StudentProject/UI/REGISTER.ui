@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1308</width>
+    <height>864</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(170, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>9</y>
+     <width>1291</width>
+     <height>851</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 255, 255);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Sunken</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="midLineWidth">
+       <number>2</number>
+      </property>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>400</x>
+         <y>30</y>
+         <width>591</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Felix Titling</family>
+         <pointsize>24</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string>WELCOME ! NEW USER</string>
+       </property>
+      </widget>
+      <widget class="QFrame" name="frame_2">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>140</y>
+         <width>871</width>
+         <height>531</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-color: rgb(170, 0, 0);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="lineWidth">
+        <number>2</number>
+       </property>
+       <property name="midLineWidth">
+        <number>2</number>
+       </property>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>30</y>
+          <width>261</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Felix Titling</family>
+          <pointsize>24</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(170, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>REGISTER</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>130</y>
+          <width>261</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Felix Titling</family>
+          <pointsize>24</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(170, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>USERNAME</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>250</y>
+          <width>261</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Felix Titling</family>
+          <pointsize>24</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(170, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>PASSWORD</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>350</y>
+          <width>441</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Felix Titling</family>
+          <pointsize>24</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(170, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>CONFIRM PASSWORD</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>450</y>
+          <width>261</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Felix Titling</family>
+          <pointsize>24</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(170, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>CATEGORY</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="USERNAMElineEdit">
+        <property name="geometry">
+         <rect>
+          <x>570</x>
+          <y>140</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 170, 0);</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="PASSEDlineEdit">
+        <property name="geometry">
+         <rect>
+          <x>570</x>
+          <y>240</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 170, 0);</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="CONPASSWDlineEdit">
+        <property name="geometry">
+         <rect>
+          <x>570</x>
+          <y>350</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 170, 0);</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="CATEGORYcomboBox">
+        <property name="geometry">
+         <rect>
+          <x>580</x>
+          <y>451</y>
+          <width>231</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(170, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>PRINCIPAL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>TEACHER</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>STUDENT</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QPushButton" name="SIGNUPpushButton">
+       <property name="geometry">
+        <rect>
+         <x>570</x>
+         <y>740</y>
+         <width>281</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Felix Titling</family>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 0, 0);
+background-color: rgb(255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string>SIGN UP</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

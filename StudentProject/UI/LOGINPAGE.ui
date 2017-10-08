@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1118</width>
+    <height>731</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(170, 255, 255);</string>
+  </property>
+  <widget class="QLabel" name="HEADINGLBL">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>30</y>
+     <width>971</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Engravers MT</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
+   <property name="accessibleName">
+    <string>K J SOMAIYA</string>
+   </property>
+   <property name="accessibleDescription">
+    <string>HEADING</string>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(170, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>WELCOME TO K J SOMAIYA COLLEGE OF ENGGINEERING</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="NAMELBL">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>170</y>
+     <width>421</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Felix Titling</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="accessibleName">
+    <string>NAME</string>
+   </property>
+   <property name="accessibleDescription">
+    <string>STUDENT RECORD</string>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>STUDENT RECORD ~(LOGIN)</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame1">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>250</y>
+     <width>711</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="midLineWidth">
+    <number>1</number>
+   </property>
+   <widget class="QLabel" name="USERNAMELBL">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>241</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Felix Titling</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 127);</string>
+    </property>
+    <property name="text">
+     <string>USERNAME</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PASSWDLBL">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>251</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Felix Titling</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 127);</string>
+    </property>
+    <property name="text">
+     <string>PASSWORD</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="CATEGORYcomboBox">
+    <property name="geometry">
+     <rect>
+      <x>302</x>
+      <y>150</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>PRINCIPAL</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>STUDENT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>PROFESSOR</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="CATEGORYLBL">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>150</y>
+      <width>261</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Felix Titling</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 127);</string>
+    </property>
+    <property name="text">
+     <string>CATEGORY</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="USERNAMETXTBX">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>10</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="PASSWDTXTBX">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>71</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="NEWUSERLBL">
+    <property name="geometry">
+     <rect>
+      <x>192</x>
+      <y>220</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Felix Titling</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 127);</string>
+    </property>
+    <property name="text">
+     <string>NEW USER ?</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="REGISTEERpushButton">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>220</y>
+      <width>141</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Felix Titling</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(170, 0, 0);background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>REGISTER</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="PICLBL">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>231</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>download.png</pixmap>
+   </property>
+  </widget>
+  <zorder>HEADINGLBL</zorder>
+  <zorder>NAMELBL</zorder>
+  <zorder>frame1</zorder>
+  <zorder>lcdNumber</zorder>
+  <zorder>PICLBL</zorder>
+ </widget>
+ <resources>
+  <include location="bg1login.qrc"/>
+ </resources>
+ <connections/>
+</ui>
