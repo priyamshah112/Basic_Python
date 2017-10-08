@@ -1,0 +1,19 @@
+                                   THE STUDENT RECORD(version 1)
+The record has 5 choices 1]create record,2]read record,3]append reccord,4]delete record,5]exit.
+
+1]Create record - Takes input as ROLL NUMBER,STUDENT NAME,PROCTOR NAME,EXPOSURE COURSE,OTHER ACTIVITIES,ATTENDANCE OF OVERALL SUBJECTS (IN %).
+The file created is of file name-roll number.After taking basic information of a student the second input is of Grades .There is selection option 
+between 9 first year engineering subjects out of which 6 can be selected.The basic information subject such as roll number,attendance in that particular 
+subject and student test and sem marks are taken as input after an output is displayed which says whether the student is passed with distinction(<75%) 
+or pass (32<total>75) or fail(32<).
+
+2] READ RECORD -IT takes input of roll number and displays the related file content regarding that student if file not found it gives an error.
+
+3] APPEND RECORD - The roll number is taken as input along with the editors name .The comment could be added regarding the change of marks,performance,etc.
+if file is not found it creates a new file of that roll number.
+
+4] Delete record - The roll number is taken as input and the file is deleted.if file not found error is given.
+
+5] EXIT - The program is terminated and a Thank you! message is displayed.
+
+*After every choice the choice program is called for further process.

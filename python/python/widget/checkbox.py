@@ -1,0 +1,10 @@
+from tkinter import *
+master=Tk()
+var=StringVar()
+c=Checkbutton(master,text="physics",variable=var,onvalue="RGB",offvalue="L")
+g=Checkbutton(master,text="chemistry",variable=var,onvalue="RGB",offvalue="L")
+e=Checkbutton(master,text="maths",variable=var,onvalue="RGB",offvalue="L")
+g.pack()
+e.pack()
+c.pack()
+mainloop()
