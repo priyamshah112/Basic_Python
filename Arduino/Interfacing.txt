@@ -1,0 +1,3 @@
+The code is tested on odroid xu4 and Arduino Mega serial interfacing for read and write based on LED one can extend that logic for other sensors reading and stuffs.
+One can simply install package pip3 install serial in python 3.5 and communicate with LED code built on Arduino.
+
